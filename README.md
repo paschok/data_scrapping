@@ -1,17 +1,17 @@
 # data_scrapping
 Learning to scrap data from the Web using different techniques
 
-folders: 
+>folders: 
 
-1. datascrapping : request + BeautifulSoup. Please refer to this tutorial for more info: https://towardsdatascience.com/how-to-web-scrape-with-python-in-4-minutes-bc49186a8460
+>1. datascrapping : request + BeautifulSoup. Please refer to this tutorial for more info: https://towardsdatascience.com/how-to-web-scrape-with-python-in-4-minutes-bc49186a8460
 
 I also provide a two .txt documents for some reason
 
-2. quotes: using scrapy 
+>2. quotes: using scrapy 
 
 Usefull thing: Type in Terminal: 
 
-scrapy shell "http://quotes.toscrape.com/"
+>>scrapy shell "http://quotes.toscrape.com/"
 
 In [1]: response.css("title")
 Out[1]: UNEXTRACTED XPATH DATA
@@ -48,7 +48,7 @@ In [9]: response.css(".author::text")[1].extract()
 Out[9]: 'J.K. Rowling'
 
 
-USING XPATH:
+>>USING XPATH:
 
 In [1]: response.xpath("//title").extract()
 Out[1]: NORMAL OUT AS SEEN USING .css
@@ -76,3 +76,6 @@ Out[5]: '“It is our choices, Harry, that show what we truly are, far more than
 In [6]: response.css("li.next a").xpath("@href").extract()
 Out[6]: ['/page/2/']
 
+
+>To store data in .json/.csv/.xml files type:
+>>scrapy crawl quotes -o items.json/csv/xml
