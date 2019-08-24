@@ -1,14 +1,16 @@
 # data_scrapping
 ###### Learning to scrap data from the Web using different techniques like BeautifulSoup+responses and Scrapy
 
-##Structure of repo: 
+## Structure of repo: 
 
 1.   datascrapping : request + BeautifulSoup. Written in ***jupyter notebooks***. For more info please refer to this [tutorial](https://towardsdatascience.com/how-to-web-scrape-with-python-in-4-minutes-bc49186a8460). 
  I also provide a two *.txt* documents for a brief example
 
-2.  quotes: using scrapy 
+2.  quotes: using scrapy to scrap [quotes](http://quotes.toscrape.com/)
 
-##Next code example is for scrappy only.
+3. venv / .idea - virtual environment and IntelijIdea folder - you don't probably need that
+
+## Next code example is for scrappy only.
 **Type in Terminal:**
 
 `scrapy shell "http://quotes.toscrape.com/"`
