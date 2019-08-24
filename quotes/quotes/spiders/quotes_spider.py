@@ -29,3 +29,7 @@ class QuotesSpider(scrapy.Spider):
             # yield works with generator
             yield items
 
+        next_page = response.css("li.next a::attr(href)").get()
+        if next_page is not None:
+            # callback tells Scrapy what to do next
+            yield response.follow(next_page, callback=self.parse)
