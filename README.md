@@ -87,3 +87,5 @@ Out[6]: ['/page/2/']
 > Scraped data -> Item Containers -> json/csv files
     
 > Scraped data -> Item Containers -> Pipeline -> SQL/Mongo DB
+
+*Everytime we are yielding data in a spider python automatically goes to pipelines.py*
