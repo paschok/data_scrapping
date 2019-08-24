@@ -93,3 +93,5 @@ Out[6]: ['/page/2/']
 *Scrapy always checks for `response.follow()` inside method `parse`*
 
 *.exctract() = .getall() || .extract_first() = .get()*
+
+### Use `googlebot useragent` to bypass some restrictions, like ones from *amazon*
