@@ -91,3 +91,5 @@ Out[6]: ['/page/2/']
 *Everytime we are yielding data in a spider python automatically goes to pipelines.py*
 
 *Scrapy always checks for `response.follow()` inside method `parse`*
+
+*.exctract() = .getall() || .extract_first() = .get()*
