@@ -6,7 +6,7 @@
 1.   datascrapping : request + BeautifulSoup. Written in ***jupyter notebooks***. For more info please refer to this [tutorial](https://towardsdatascience.com/how-to-web-scrape-with-python-in-4-minutes-bc49186a8460). 
  I also provide a two *.txt* documents for a brief example
 
-2.  quotes: using scrapy to scrap [quotes](http://quotes.toscrape.com/)
+2.  quotes: using **scrapy** to scrap [quotes](http://quotes.toscrape.com/)
 
 3. venv / .idea - virtual environment and IntelijIdea folder - you don't probably need that
 
